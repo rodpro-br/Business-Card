@@ -12,6 +12,7 @@
         android:layout_height="50dp"
         android:background="?attr/actionBarItemBackground"
         android:src="@drawable/ic_close"
+        android:contentDescription="@string/cd_botao_fechar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -113,13 +114,14 @@
         app:layout_constraintTop_toBottomOf="@id/til_empresa">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/tie_cor"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:inputType="text"
             android:textAllCaps="true"
+            android:enabled="true"
+            android:text="@string/hex_color_white"
             />
-            />
-
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.button.MaterialButton

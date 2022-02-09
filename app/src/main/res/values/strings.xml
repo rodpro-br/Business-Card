@@ -10,4 +10,6 @@
     <string name="label_confirmar">Confirmar</string>
     <string name="label_show_success">Registro inserido com sucesso.</string>
     <string name="label_share_to">Compartilhar</string>
+    <string name="hex_color_white">#FFFFFFFF</string>
+    <string name="cd_botao_fechar">Botão Fechar</string>
 </resources>
